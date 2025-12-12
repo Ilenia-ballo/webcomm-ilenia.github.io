@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Twist Your Noodles </title>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-style" >
+    <div class="container-fluid">
+        <a class="navbar-brand text-uppercase fw-bold" href="index.html">
+            <span class="navbar-brand-style">Twist Your Noodles</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">The Lab</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Contacts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/twist.your.noodles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+</nav>
+
+<section class="container mt-5 py-5">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 mb-4 mb-lg-0 p-4">
+            <h2 class="display-4 fw-bold mb-4 contact-title-style">
+                Twist Your Questions
+            </h2>
+            <p class="lead text-muted">
+                Have a unique idea or a custom request? Fill out the form or reach out directly. We're happy to connect yarn and ideas!
+            </p>
+            <ul class="list-unstyled mt-4">
+                <li class="mb-3"><i class="fas fa-envelope me-3 contact-icon-color"></i>twistyournoodles@gmail.com</li>
+                <li class="mb-3"><i class="fas fa-map-market-alt me-3 contact-icon-color"></i>Milan, Italy (Online Studio)</li>
+                <li class="mb-3"><i class="fas fa-phone me-3 contact-icon-color">+39 333 4567898</i></li>
+            </ul>
+        </div>
+        <div class="col-lg-7 col-md-12 p-4 shadow-lg rounded-3 form-container-style">
+            <form action="https://formsubmit.co/balloilenia@gmail.com" method="POST" id="contactForm">
+               <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="Name" required>
+                <div class="invalid-feedback">Please, enter your name.</div>
+               </div>
+               <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="Email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+               </div>
+               <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="Subject" required>
+                <div class="invalid-feedback">Please enter a subject</div>
+               </div>
+               <div class="mb-3">
+                <label for="message" class="form-label">Your Custom Twist</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                <div class="invalid-feedback">Please enter your message.</div>
+               </div>
+               <button type="submit" class="btn btn-primary btn-lg mt-3">Send Your Request</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="text-white pt-5 pb-4 footer-style">
+  <div class="container text-center text-md-start">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold footer-heading-color">Twist Your Noodles</h5>
+        <p>Art that wears you. Made Slowly, Styled Quickly</p>
+        <p class="small">&copy; 2025 Twist Your noodles. All Rights Reserved.</p>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold footer-heading-color">Quick Links</h5>
+        <p><a href="#about" class="text-white" style="text-decoration: none;">Our Story</a></p>
+        <p><a href="#products" class="text-white" style="text-decoration: none;">Shop Now</a></p>
+        <p><a href="contacts.html" class="text-white" style="text-decoration: none;">Get in Touch</a></p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold footer-heading-color">Contact and Social</h5>
+        <p><i class="fas fa-envelope me-3"></i>twistyournoodles@gmail.com</p>
+        <p><i class="fas fa-phone me-3"></i>+39 333 4567898</p>
+
+        <div class="mt-3">
+          <a href="https://www.instagram.com/twist.your.noodles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-white me-4 footer-link-style"><i class="fab fa-instagram fa-lg"></i> @Twist.Your.Noodles</a>
+         </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
